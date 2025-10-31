@@ -1,0 +1,3 @@
+coloquei table, tr e td
+coloquei fonte
+coloquei imagens e video
