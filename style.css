@@ -1,0 +1,88 @@
+/* Símbolo de comentário para CSS */
+/* MOBILE FIRST - Estilos base para mobile */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.conteudo-principal {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.artigo, .sidebar {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* TABLET (768px+) */
+@media (min-width: 768px) {
+    .navegacao {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu {
+        flex-direction: row;
+    }
+    
+    .conteudo-principal {
+        flex-direction: row;
+    }
+    
+    .artigo {
+        flex: 2;
+    }
+    
+    .sidebar {
+        flex: 1;
+    }
+}
+
+/* DESKTOP (1024px+) */
+@media (min-width: 1024px) {
+    .conteudo-principal {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .menu {
+        gap: 2rem;
+    }
+}
+
+
+/*teste*/
+.rodape {
+	text-align: center;
+}
