@@ -7,8 +7,9 @@
 }
 
 .cabecalho {
-    background: #333;
+    background: #615A35;
     color: white;
+    font-size:18px;
     padding: 1rem;
 }
 
@@ -85,4 +86,43 @@
 /*teste*/
 .rodape {
 	text-align: center;
+	margin-top:15px;
 }
+
+/*yeaa*/
+.logoHome {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo {
+	text-align: center;
+}
+
+.menuHome {
+	text-align: center;
+	color: black;
+	font-size: 28px;
+	background-color: #FDFD96;
+	padding: 12px 20px;
+	width: 300px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+	padding-left: auto;
+	text-decoration: none;
+	display: inline-block;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.menuHome:hover {
+	background-color: #ffee8c;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding: 14px 22px;
+}
+
