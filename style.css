@@ -27,10 +27,22 @@
 }
 
 .menu a {
-    color: white;
+    color: black;
+    background-color: #8A804C;
     text-decoration: none;
     padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s
 }
+
+.menu a:hover {
+	background-color: #FDFD96;
+	color: black;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 
 .conteudo-principal {
     padding: 1rem;
@@ -86,7 +98,6 @@
 /*teste*/
 .rodape {
 	text-align: center;
-	margin-top:15px;
 }
 
 /*yeaa*/
@@ -123,6 +134,8 @@
 	background-color: #ffee8c;
 	margin-top: 20px;
 	margin-bottom:20px;
-	padding: 14px 22px;
 }
 
+.logo {
+	/*oloko*/
+}
