@@ -58,10 +58,10 @@
 }
 
 .imgSide {
-	max-width: 200px;
-	max-height: 150px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	max-width: 1rem;
+	max-height: 1rem;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 /* TABLET (768px+) */
