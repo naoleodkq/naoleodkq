@@ -22,7 +22,7 @@
 .menu {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0.5rem;
     list-style: none;
 }
 
@@ -57,6 +57,13 @@
     border-radius: 5px;
 }
 
+.imgSide {
+	max-width: 200px;
+	max-height: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 /* TABLET (768px+) */
 @media (min-width: 768px) {
     .navegacao {
@@ -80,6 +87,12 @@
     .sidebar {
         flex: 1;
     }
+    .imgSide {
+	max-width: 400px;
+	max-height: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    }
 }
 
 /* DESKTOP (1024px+) */
@@ -92,6 +105,13 @@
     .menu {
         gap: 2rem;
     }
+    .imgSide {
+	max-width: 500px;
+	max-height: 400px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+    }    
+
 }
 
 
@@ -141,13 +161,11 @@
 }
 
 .imgSide {
-	max-width: 500px;
-	max-height: 400px;
 	margin: auto;
 	display: block;
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
+
+
 
 
 
