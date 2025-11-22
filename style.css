@@ -22,7 +22,7 @@
 .menu {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
@@ -139,3 +139,16 @@
 .logo {
 	/*oloko*/
 }
+
+.imgSide {
+	max-width: 500px;
+	max-height: 400px;
+	margin: auto;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+
+
