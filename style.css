@@ -165,7 +165,13 @@
 	display: block;
 }
 
-
+dt {
+    font-size: 125%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 2.5%;
+}
 
 
 
