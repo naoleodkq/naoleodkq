@@ -58,8 +58,8 @@
 }
 
 .imgSide {
-	max-width: 500rem;
-	max-height: 400rem;
+	max-width: 100%;
+	height: auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
