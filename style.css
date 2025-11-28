@@ -107,7 +107,7 @@
     }
     .imgSide {
 	max-width: 500px;
-	max-height: 400px;
+	max-height: 750px;
 	padding-top: 25px;
 	padding-bottom: 25px;
     }    
@@ -173,6 +173,7 @@ dd {
     margin-left: 2.5%;
 }
 
-
-
+th {
+	font-weight: bold;
+}
 
