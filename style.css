@@ -1,0 +1,13 @@
+div{ /**/
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#capaAlbum{
+    align-items: left;
+}
+#tituloAlbum{
+    justify-content: right;
+}
