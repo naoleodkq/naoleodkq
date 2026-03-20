@@ -1,0 +1,9 @@
+FEITO EM DUPLA LEONARDO PORTILHO E BRENO SEGAGLIO
+
+projeto
+    index - o card do album
+    home - catalogo com os albuns
+    artista - perfil do artista com seus albuns
+    lista - lista de algum usuario
+    perfil - perfil de algum usuario
+    
