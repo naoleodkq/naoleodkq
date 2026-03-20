@@ -24,12 +24,32 @@
 	margin-top: 40px;
 	margin-right: 20px;
 	height: auto;
+	transition: 0.5s ease-out;
 	
 }
 #capaAlbum:hover {
 	content: url('media/TCDCover.jpeg');	
 }
 
+#albumSpotify {
+	display: inline-block;
+	text-align: center;
+	color: black;
+	background-color: green;
+	border: none;
+	border-radius: 5px;
+	width: 300px;
+	height: 32px;
+	padding: 12px 20px;
+	transition: 0.5s ease-out;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: auto;
+}
+#albumSpotify:hover{
+	color: white;
+	background-color: black;
+}
 
 #tituloAlbum{
 	font-family: collegeDropout;
@@ -41,5 +61,24 @@
 #artistaAlbum{
 	font-family: collegeDropout;
 	font-size: 48px;
-	margin: 0; /* Zera a margem gigante que o navegador coloca por padrão */
+	margin: 0;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s ease-out;
 }	
+#artistaAlbum:hover {
+	padding-left: 25px;
+}
+
+#s{
+	transition: 0.5s;
+	color: black;
+}
+#s:hover {
+	color: #73B6F2;
+	sound.play("media/fuzz.mp3");
+}
+
+.cardDescricao {
+		
+}
