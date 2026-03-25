@@ -4,7 +4,7 @@
 }
 
 .container{
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 20px auto;
 }
 .superior {
@@ -34,8 +34,8 @@
 #albumSpotify {
 	display: inline-block;
 	text-align: center;
-	color: black;
-	background-color: green;
+	color: #191414;
+	background-color: #1DB954;
 	border: none;
 	border-radius: 5px;
 	width: 300px;
@@ -45,10 +45,11 @@
 	cursor: pointer;
 	text-decoration: none;
 	padding-left: auto;
+	font-size: 24px;
 }
 #albumSpotify:hover{
 	color: white;
-	background-color: black;
+	background-color: #191414;
 }
 
 #tituloAlbum{
@@ -76,9 +77,19 @@
 }
 #s:hover {
 	color: #73B6F2;
-	sound.play("media/fuzz.mp3");
+	text-decoration: underline #73B6F2;
 }
 
 .cardDescricao {
-		
+	font-size: 24px;
+}
+
+.button-inner {
+	display: flex;
+	gap: 52px;
+	margin: auto;
+}
+
+.logo {
+	max-width: 32px;
 }
