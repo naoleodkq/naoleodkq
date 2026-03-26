@@ -2,10 +2,28 @@
    font-family: collegeDropout;
    src: url(fonts/collegeDropout.ttf);
 }
+@font-face {
+   font-family: bellefair;
+   src: url(fonts/bellefair.ttf);
+}
+@font-face {
+   font-family: bully;
+   src: url(fonts/lukeThick.ttf);
+}
 
 .container{
 	max-width: 1200px;
 	margin: 20px auto;
+	
+}
+
+.containerForm{
+	max-width: 500px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 .superior {
 	display: flex;
@@ -25,6 +43,7 @@
 	margin-right: 20px;
 	height: auto;
 	transition: 0.5s ease-out;
+	flex-wrap: wrap;
 	
 }
 #capaAlbum:hover {
@@ -92,4 +111,40 @@
 
 .logo {
 	max-width: 32px;
+}
+
+/*cabecalho*/
+.header {
+    background-color: #222831;
+    padding: 15px 0;
+	border-radius: 4px;
+	max-height: 10vh;
+}
+
+.nav-links {
+    list-style: none; /* remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav-links li a:hover {
+    background-color: #393E46;
+}
+
+.tituloForm, #tituloAlbum {
+	font-family: bellefair;
+	font-size: 4vw;
 }
