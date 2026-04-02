@@ -11,9 +11,20 @@
    src: url(fonts/lukeThick.ttf);
 }
 
+
+
+.bTheme {
+	
+	background-color: #222831;
+	
+}
+
+	
+	
 .container{
 	max-width: 1200px;
 	margin: 20px auto;
+	background-color: white;
 	
 }
 
@@ -192,4 +203,5 @@
 .tituloForm, #tituloAlbum {
 	font-family: bellefair;
 	font-size: 6vw;
+	font-style: normal;
 }
