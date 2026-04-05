@@ -1,31 +1,42 @@
-@font-face {
-   font-family: collegeDropout;
-   src: url(fonts/collegeDropout.ttf);
-}
-@font-face {
-   font-family: bellefair;
-   src: url(fonts/bellefair.ttf);
-}
-@font-face {
-   font-family: bully;
-   src: url(fonts/lukeThick.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
 }
 
-
-
+:root {
+	--cor-fundo: white;
+	--cor-texto: black;
+}
 .bTheme {
-	
-	background-color: #222831;
-	
+	--cor-fundo: black;
+	--cor-texto: white;
+	transition: 0.5s ease-in-out;
 }
-
 	
+body, header, head {
+	background-color: var(--cor-fundo);
+	color: var(--cor-texto);
+	transition: 0.5s ease-in-out;
+
+}
+h1, h2 {
+	color: var(--cor-texto);
+	font-size: 4rem;
+	transition: 0.5s ease-in-out;
+
+}
+button {
+	background-color: var(--cor-texto);
+	color: var(--cor-fundo);
+	transition: 0.5s ease-in-out;
+
+}
 	
 .container{
 	max-width: 1200px;
 	margin: 20px auto;
-	background-color: white;
-	
 }
 
 .containerForm{
@@ -41,7 +52,6 @@
 	padding: 30px;
 	border: 1px solid #ddd;
 	border-radius: 8px;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.25);
 }
 .formDupla {
 	display: flex;
@@ -51,7 +61,6 @@
 .formDupla label{
 	margin-bottom: 5px;
 	font-weight: bold;
-	color: #333;
 	font-size: 14px;
 }
 .formDupla input {
@@ -62,7 +71,6 @@
 }
 .formDupla input:focus {
     outline: none;
-    border-color: #DFD0B8;
 }
 
 .btSubmit {
@@ -75,7 +83,7 @@
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-	transition: 0.2s ease-in-out;
+	transition: 0.5s ease-in-out;
 }
 .btSubmit:hover{
 	background-color: #555;
@@ -98,12 +106,8 @@
 	margin-top: 40px;
 	margin-right: 20px;
 	height: auto;
-	transition: 0.5s ease-out;
 	flex-wrap: wrap;
 	
-}
-#capaAlbum:hover {
-	content: url('media/TCDCover.jpeg');	
 }
 
 #albumSpotify {
@@ -116,39 +120,27 @@
 	width: 300px;
 	height: 32px;
 	padding: 12px 20px;
-	transition: 0.5s ease-out;
+	transition: 0.5s ease-in-out;
 	cursor: pointer;
 	text-decoration: none;
 	padding-left: auto;
 	font-size: 24px;
 }
-#albumSpotify:hover{
-	color: white;
-	background-color: #191414;
-}
 
 #tituloAlbum{
-	font-family: collegeDropout;
 	font-size: 64px;
 	margin: 0;
 	margin-top: 40px;	
 }
 
 #artistaAlbum{
-	font-family: collegeDropout;
 	font-size: 48px;
 	margin: 0;
 	text-decoration: none;
-	color: black;
-	transition: 0.5s ease-out;
+	color: var(--cor-texto);
 }	
-#artistaAlbum:hover {
-	padding-left: 25px;
-}
-
 #s{
-	transition: 0.5s;
-	color: black;
+	transition: 0.5s ease-in-out;
 }
 #s:hover {
 	color: #73B6F2;
@@ -171,37 +163,39 @@
 
 /*cabecalho*/
 .header {
-    background-color: #222831;
     padding: 15px 0;
 	border-radius: 4px;
 	max-height: 10vh;
 }
 
+nav {
+	display: flex;
+    align-items: center;
+}
+
 .nav-links {
     list-style: none; /* remove as bolinhas da lista */
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 2rem;
 }
 
 .nav-links li a {
-    color: #ffffff;
+	color: var(--cor-texto);	
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     padding: 8px 16px;
-    border-radius: 4px;
-    transition: background-color 0.2s ease-in-out;
-}
-
-.nav-links li a:hover {
-    background-color: #393E46;
 }
 
 .tituloForm, #tituloAlbum {
-	font-family: bellefair;
 	font-size: 6vw;
 	font-style: normal;
 }
+
+.mostrarAlbum {
+	
+}
+
