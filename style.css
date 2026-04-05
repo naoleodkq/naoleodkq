@@ -45,9 +45,21 @@ button {
 }
 	
 .container{
+	display: flex;
+	flex-direction: flow;
 	max-width: 1200px;
+	justify-content: center;
+	gap: 20px;
 	margin: 20px auto;
 }
+
+/*p celular*/
+@media (max-width: 768px) {
+  .seu-container-no-index {
+    flex-direction: column; /* Transforma em coluna (um embaixo do outro) */
+    align-items: center;    /* Centraliza tudo na tela */
+    padding: 0 15px;        /* Dá uma margem lateral para não grudar na borda do celular */
+  }
 
 .containerForm{
 	max-width: 600px;
