@@ -60,7 +60,7 @@ button {
     align-items: center;    /* Centraliza tudo na tela */
     padding: 0 15px;        /* Dá uma margem lateral para não grudar na borda do celular */
   }
-
+}
 .containerForm{
 	max-width: 600px;
 	margin: 40px auto;
@@ -259,7 +259,7 @@ nav {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	transition: background-color 0.3s ease;
+	transition: 0.5s ease-in-out;
 }
 
 .iconeTema {
@@ -267,9 +267,8 @@ nav {
   height: 28px;
   display: inline-block;
   
-  /* 1. A cor de fundo será a cor do texto do tema atual */
   color: var(--cor-texto);
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .opop {
