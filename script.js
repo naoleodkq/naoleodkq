@@ -33,3 +33,35 @@ btnMostrarDesc.addEventListener('click', () => {
     btnMostrarDesc.innerText = '+';
   }
 });
+
+// JS da prof
+const formulario = document.getElementById('formCard');
+  formulario.addEventListener('submit', function(evento){
+      evento.preventDefault();
+      const novo = {
+      nomeAlbum:document.getElementById('nomeAlbum').value,
+      linkAlbum:document.getElementById('linkAlbum').value,
+      nomeArtista:document.getElementById('nomeArtista').value,
+      linkArtista:document.getElementById('linkArtista').value,
+      generoAlbum:document.getElementById('generoAlbum').value,
+      descricaoAlbum:document.getElementById('descricaoAlbum').value,
+      imagemAlbum:document.getElementById('imagemAlbum').value,
+      descricaoImagem:document.getElementById('descricaoImagem').value
+      };
+    //guardando um pedaco do cod html pra futuramente fazer o card eita eita
+    const novoCard = `
+      <div class="superior">
+        <img src = "${novo.imagemAlbum}">
+        <h2>${novo.nomeAlbum}</h3>
+        <a href="${novo.linkArtista}}">${novo.nomeArtista}</a>
+        <h4>${novo.generoAlbum}</h4>
+        <a href="${novo.linkAlbum}
+      </div>
+      <div class = "cardDescricao">
+        <p>${novo.descricaoAlbum}</p>
+      </div>
+    `;
+
+    console.log('novoCard');
+    })
+
