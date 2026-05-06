@@ -38,7 +38,7 @@ if (btnMostrarDesc) {
 }
 
 
-// JS da prof
+// JS da prof  
 const formulario = document.getElementById('formCard');
 
 if (formulario) {
@@ -57,18 +57,19 @@ if (formulario) {
     //guardando um pedaco do cod html pra futuramente fazer o card eita eita
     const novoCard = `
       <div class="superior">
-        <img src = "${novo.imagemAlbum}">
-        <h2>${novo.nomeAlbum}</h3>
-        <a href="${novo.linkArtista}}">${novo.nomeArtista}</a>
-        <h4>${novo.generoAlbum}</h4>
-        <a href="${novo.linkAlbum}
+        <img src="${novo.imagemAlbum}" id="capaAlbum"></img>
+        <h2 id="tituloAlbum">${novo.nomeAlbum}</h2>
+        <a href="${novo.linkArtista}}" id="artistaAlbum">${novo.nomeArtista}</a>
+        <h4 id="categoriasAlbum">${novo.generoAlbum}</h4>
+        <a href="${novo.linkAlbum}" id="albumSpotify" target="_blank"><span class="button-inner"><img class="logo" src="media/spotifyLogo.png"></span></a>
       </div>
-      <div class = "cardDescricao">
-        <p>${novo.descricaoAlbum}</p>
+      <div class="cardDescricao">
+        <button id="mostrarDesc">+</button>
+        <p id="descAlbum">${novo.descricaoAlbum}</p>
       </div>
-    `;
+      `;
     colecao.innerHTML += novoCard;
-    form.reset();
+    formCard.reset();
 
     console.log('novoCard');
     })
